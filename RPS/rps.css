@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#gameContainer {
+    display: flex;
+    flex-direction: column;   
+    width: 40%;
+    margin: 10% auto;
+    padding: 40px 0px 40px 200px;
+    border-radius: 10px;
+    height: 400px;
+    background:url(./imgs/rps-bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gameText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-weight: bold;
+}
+#playerText {
+    color: #009688 
+}
+#computerText {
+    color: #4CAF50
+}
+#resultText {
+    color: white
+}
+#buttons-container {
+    margin-top: 150px;
+    display: flex;
+    gap: 50px;
+    width: 100%;
+}
+.choiceBtn {
+    border-radius: 10px;
+    width: 130px;
+    border: none;
+    font-weight: bolder;
+    color: #beb0de;
+    background: rgb(62, 21, 209);
+}

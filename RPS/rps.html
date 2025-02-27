@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Sissor</title>
+    <link rel="stylesheet" href="./rps.css">
 </head>
 <body>
-    <div id="gameDiv">
-        <h1 class="gameText" id="playerText">Boy G: </h1>
-        <h1 class="gameText" id="computerText">Computer: </h1>
-        <h1 class="gameText" id="resultText">Result: </h1>
-
-        <button class="choiceBtn">ROCK</button>
-        <button class="choiceBtn">PAPER</button>
-        <button class="choiceBtn">SCISSORS</button>
+    <div id="gameContainer">
+        <span style="font-weight: bold; font-size: xx-large; color: #B0C4DE">ROCK! PAPER! SCISSORS!</span>
+        <h1 class="gameText" id="playerText">Boy G: 0 </h1>
+        <h1 class="gameText" id="computerText">Computer: 0 </h1>
+        <div id="buttons-container">
+            <button class="choiceBtn">ROCK</button>
+            <button class="choiceBtn">PAPER</button>
+            <button class="choiceBtn">SCISSORS</button>
+            <h3 class="gameText" id="resultText">Result: </h3>
+        </div>
+        
     </div>
-
     <script src="./rps.js"></script>
 </body>
 </html>
