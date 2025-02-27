@@ -3,30 +3,42 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
+.content {
+    padding: 40px 40px 0px 40px;
+    width: 100%;
+    height: 100%;
+}
 #gameContainer {
     display: flex;
     flex-direction: column;   
     width: 40%;
     margin: 10% auto;
-    padding: 40px 0px 40px 200px;
     border-radius: 10px;
-    height: 400px;
-    background:url(./imgs/rps-bg-image.jpg);
+    background:url(./imgs/bg-image.png);
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
-
+.overlay {
+    background-color: rgba(20, 19, 19, 0.7);
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 .gameText {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
     font-weight: bold;
 }
 #playerText {
-    color: #009688 
+    color: rgb(22, 22, 224);
 }
 #computerText {
-    color: #4CAF50
+    color: #FA377E
 }
 #resultText {
     color: white
@@ -42,6 +54,11 @@ body {
     width: 130px;
     border: none;
     font-weight: bolder;
-    color: #beb0de;
+    color: #ffffff;
     background: rgb(62, 21, 209);
+}
+.gameScore {
+    font-style: italic;
+    font-size: large;
+    color: pink;
 }

@@ -8,16 +8,21 @@
 </head>
 <body>
     <div id="gameContainer">
-        <span style="font-weight: bold; font-size: xx-large; color: #B0C4DE">ROCK! PAPER! SCISSORS!</span>
-        <h1 class="gameText" id="playerText">Boy G: 0 </h1>
-        <h1 class="gameText" id="computerText">Computer: 0 </h1>
-        <div id="buttons-container">
-            <button class="choiceBtn">ROCK</button>
-            <button class="choiceBtn">PAPER</button>
-            <button class="choiceBtn">SCISSORS</button>
-            <h3 class="gameText" id="resultText">Result: </h3>
+        <div class="overlay">
+            <div class="content">
+                <span style="font-weight: bold; font-size: xx-large; color: #ffffff">ROCK! PAPER! SCISSORS!</span>
+                <h1 class="gameText" id="playerText">Boy G:  </h1>
+                <h1 class="gameScore" id="playerScore">Boy G: 0 </h1>
+                <h1 class="gameText" id="computerText">Computer: </h1>
+                <h1 class="gameScore" id="computerScore">computer: 0 </h1>
+                <div id="buttons-container">
+                    <button class="choiceBtn">ROCK</button>
+                    <button class="choiceBtn">PAPER</button>
+                    <button class="choiceBtn">SCISSORS</button>
+                    <h3 class="gameText" id="resultText">Result </h3>
+                </div>
+         </div>
         </div>
-        
     </div>
     <script src="./rps.js"></script>
 </body>
